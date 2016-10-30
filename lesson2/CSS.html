@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        /*все*/
+        * {
+            font-weight: bold;
+            /*background-color: blue; */
+        }
+        /*по тегу*/
+        span {
+            background: aqua;
+        }
+        /*по классу*/
+        .main_header {
+            background: green;
+            font-size: 60px;
+        }
+        /*по ID*/
+        #first_header {
+            background-color: red;
+        }
+        /*по типу*/
+        [type="text"] {
+            border: none;
+            background: #efefef;
+            padding: 10px;
+        }
+        /*свой*/
+        [someattr] {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<h1 class="main_header">HEADER H1</h1>
+<h1 class="main_header" id="first_header">HEADER H1</h1>
+<div>HEADER DIV</div>
+<div>
+    <h1>HEADER H1</h1>
+</div>
+<span>HEADER SPAN</span>
+<input type="text" placeholder="Enter name">
+<input type="number" placeholder="0" value="0">
+<p someattr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eum natus porro. Debitis dolor doloremque ea eaque et exercitationem illum impedit laboriosam magni minus molestiae provident quidem recusandae sed, tempore!</p>
+</body>
+</html>
