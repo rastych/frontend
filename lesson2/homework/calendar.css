@@ -1,0 +1,48 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #efefef;
+    font-family: Helvetica, Arial;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 420px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.box {
+    border: 1px solid;
+    width: 420px;
+    height: 100px;
+    text-align: center;
+    border-collapse:collapse;
+}
+
+.header {
+    height: 100px;
+    background: #F9787C;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    font-style: italic;
+}
+
+.cell_out {
+    width: 60px;
+    height: 60px;
+    border: 1px solid, black;
+    color: #ffffff;
+}
+
+.cell:hover, .cell_out:hover {
+    background: #F9787C;
+}

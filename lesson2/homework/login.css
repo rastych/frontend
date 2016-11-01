@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #71C2FF;
+    font-family: Helvetica, Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: -200px;
+}
+
+.outer {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 450px;
+    width: 370px;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    color: grey;
+    font-size: 42px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.fields {
+    height: 200px;
+    margin: auto;
+}
+
+.submit {
+    height: 100px;
+    margin: auto;
+}
+
+.lost {
+    height: 75px;
+    margin: auto;
+}
+
+.inp {
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.button {
+    background: #71C2FF;
+    width: 324px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.lost a {
+    font-size: 12px;
+    color: grey;
+}
