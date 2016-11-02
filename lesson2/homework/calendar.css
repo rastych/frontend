@@ -15,32 +15,42 @@ body {
 }
 
 .box {
-    border: 1px solid;
+    border: 1px lightgrey solid;
     width: 420px;
     height: 100px;
     text-align: center;
     border-collapse:collapse;
 }
 
+.arrow {
+    font-size: 18px;
+    color: lightgrey;
+}
+
 .header {
     height: 100px;
     background: #F9787C;
     color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.days {
+    font-weight: bold;
     text-transform: capitalize;
-    font-size: 32px;
 }
 .cell {
     width: 60px;
     height: 60px;
-    border: 1px solid;
+    border: 1px solid lightgrey;
     font-style: italic;
 }
 
 .cell_out {
     width: 60px;
     height: 60px;
-    border: 1px solid, black;
-    color: #ffffff;
+    border: 1px solid lightgrey;
+    color: grey;
 }
 
 .cell:hover, .cell_out:hover {
