@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Helvetica, sans-serif, arial;
+}
+
+body {
+    font-size: 14px;
+}
+
+.container-wrapper {
+    height: 400px;
+    position: relative;
+}
+
+.purple {
+    background: #6f5499;
+}
+
+.logo {
+    border: 1px solid white;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.logo-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    width: 600px;
+    height: 80px;
+    top: 55%;
+    left: 50%;
+    margin-left: -300px;
+}
+
+.text-field {
+    font-family: "Century Gothic";
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+    height: 30px;
+    display: inline-block;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: -70px;
+    overflow: hidden;
+}
+
+.btn_text {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 10px; 15px;
+    box-sizing: border-box;
+}
+
+.btn_text:hover {
+    color: #6f5499;
+    text-decoration: none;
+    background: #fff;
+}
+
