@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: arial, Helvetica;
+    font-size: 14px;
+}
+
+li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-text > img {
+    padding: 10px 0px;
+}
+
+.main {
+    width: 100%;
+}
+
+.color {
+    color: #9f81b0;
+}
+
+.header {
+    height: 70px;
+    background: #9f81b0;
+}
+
+.header_wrapper {
+    width: 700px;
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -350px;
+}
+
+.logo-top {
+    float: left;
+    margin: 0 auto;
+}
+
+.logo_round {
+    position: relative;
+    top:15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    float: left;
+}
+
+.top-logo-text {
+    position: relative;
+    float: right;
+    left: 10px;
+    line-height: 70px;
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    position: relative;
+    float: right;
+    line-height: 70px;
+    font-size: 14px;
+}
+
+.content {
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+}
+
+.content-top {
+    width: 100%;
+    position: relative;
+}
+
+.content-top-text {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 10px 15px;
+}
+
+.content-text {
+    padding: 5px 0px;
+}
+.content-bottom {
+    width: 700px
+}
+.content-bottom-left {
+    position: relative;
+    width: 48%;
+    float: left;
+}
+.content-bottom-right {
+    position: relative;
+    width: 48%;
+    float: right;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    top: 50px;
+}
+
+.footer_wrapper {
+    width: 700px;
+    position: relative;
+    left: 50%;
+    margin-left: -350px;
+    border-top: 3px solid #9f81b0;
+}
+
+.social_buttons > img{
+    width: 40px;
+}
+
+.social_buttons {
+    float: left;
+    position: relative;
+    line-height: 80px;
+}
+
+.logo-footer {
+    position: relative;
+    float: right;
+    top: 5px;
+}
+
+.logo-round-footer {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #9f81b0;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    margin: 0 auto;
+    color: #ffffff;
+    float: left;
+    margin-right: 10px;
+}
+.logo-footer-text {
+    position: relative;
+    display: inline-block;
+    color: #9f81b0;
+    font-size: 28px;
+    line-height: 40px;
+    float: left;
+}

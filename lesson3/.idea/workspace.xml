@@ -25,21 +25,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/homework/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="80">
-                  <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="website.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+                <state relative-caret-position="384">
+                  <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -49,11 +39,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="website.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/website.css">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/homework/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="595">
-                  <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+                <state relative-caret-position="192">
+                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -66,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -77,6 +68,10 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/website.html" />
         <option value="$PROJECT_DIR$/website.css" />
+        <option value="$PROJECT_DIR$/homework/modal.html" />
+        <option value="$PROJECT_DIR$/homework/modal.css" />
+        <option value="$PROJECT_DIR$/homework/index.html" />
+        <option value="$PROJECT_DIR$/homework/styles.css" />
       </list>
     </option>
   </component>
@@ -137,6 +132,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -148,6 +157,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -212,12 +222,12 @@
       <option name="presentableId" value="Default" />
       <updated>1478340492676</updated>
       <workItem from="1478340493907" duration="77000" />
-      <workItem from="1478340592116" duration="9942000" />
+      <workItem from="1478340592116" duration="22290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10019000" />
+    <option name="totallyTimeSpent" value="22367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="22" width="1377" height="837" extended-state="0" />
@@ -272,14 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -288,10 +290,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="1216">
           <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/modal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>

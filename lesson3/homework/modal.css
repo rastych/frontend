@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Century Gothic";
+    background: #29333f;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.close a {
+    color: darkgray;
+}
+
+.window {
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -9px 10px 5px 1px rgba(0,0,0,0.75);
+}
+
+.header {
+    position: relative;
+    height: 60px;
+    border-bottom: #e6f0f1 2px solid;
+}
+
+.category {
+    position: relative;
+    display: inline;
+    color: #29333f;
+    line-height: 60px;
+    left: 40px;
+}
+
+.close {
+    position: relative;
+    right: 20px;
+    float: right;
+    line-height: 55px;
+}
+
+.message {
+    position: relative;
+    padding:20px 20px;
+    font-size: 1rem;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.message a {
+    text-decoration: none;
+    color: #2eba9b;
+}
+
+.bottom {
+    position: relative;
+    background: #e6f0f1;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buttons {
+    position: relative;
+    float: right;
+    top:5px;
+}
+
+.button {
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    background: #bdc3c7;
+    color: #fff;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background: #2eba9b;
+}
