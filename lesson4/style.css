@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+}
+
+body {
+    background-image: linear-gradient(260deg, #2376ae  0%, #c16ecf 100%);
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.3);
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex; /*включаем флекс*/
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.navbar-items {
+    flex-grow: 2; /*распределять свободное пространство между элементами*/
+    /*-webkit-flex-basis: 60px;*/
+    flex-shrink: 0; /*не сжиматься, 1 - сжиматься меньше flex-basis*/
+}
+
+.icon {
+    flex-grow: 1;
+}
+
+.navbar-items > a{
+    color: #fff;
+    border: 1px solid red;
+    height: 100%;
+    display: block;
+}
