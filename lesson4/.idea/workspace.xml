@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b668b47-e0e1-4db8-90d4-5c4e3ffb3ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/index.html" afterPath="$PROJECT_DIR$/homework/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework/styles.css" afterPath="$PROJECT_DIR$/homework/styles.css" />
     </list>
     <ignored path="lesson4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homework/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7276536">
-                  <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+                <state vertical-scroll-proportion="0.8324022">
+                  <caret line="134" column="4" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -86,8 +84,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/homework/index.html" />
         <option value="$PROJECT_DIR$/homework/styles.css" />
+        <option value="$PROJECT_DIR$/homework/index.html" />
       </list>
     </option>
   </component>
@@ -335,18 +333,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7276536">
-          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7067039">
           <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8324022">
+          <caret line="134" column="4" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="26" />
           <folding />
         </state>
       </provider>
