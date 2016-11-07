@@ -25,6 +25,15 @@ ul {
     list-style: none;
 }
 
+s-grey {
+    color: #4d4959;
+}
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+}
+
 #top {
     margin: 0 auto;
     background-image: url("images/bike_1.jpg");
@@ -92,4 +101,38 @@ ul {
     margin: 20px;
     text-align: center;
     line-height: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 360px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.wide-block {
+    flex-grow: 2;
+    background: red;
+    max-width: 66%;
+}
+
+.slim-block {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: green;
+    max-width: 34%;
+}
+
+.slim-block-top {
+    flex-grow: 2;
+}
+
+.slim-block-bottom {
+    flex-grow: 1;
+    background: pink;
 }
