@@ -23,7 +23,7 @@
 }
 
 html {
-    font-family: lato-regular;
+    font-family: lato-regular, Helvetica;
 }
 
 a {
@@ -78,7 +78,7 @@ ul {
 }
 
 .about {
-    height: 468px;
+    height: 280px;
     box-sizing: border-box;
 }
 .description {
@@ -224,7 +224,7 @@ ul {
 .tiles2 {
     width: 960px;
     height: 320px;
-    display: flex;
+    display: inline-flex;
     box-sizing: border-box;
     justify-content: flex-start;
     flex-direction: column;
