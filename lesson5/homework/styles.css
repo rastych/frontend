@@ -24,6 +24,9 @@
 
 html {
     font-family: lato-regular, Helvetica;
+
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a {
@@ -35,15 +38,9 @@ ul {
 }
 
 li {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+     margin: auto;
+ }
 
-.about {
-    margin: 20px 0;
-}
 .main {
     margin: 0 auto;
 }
@@ -53,23 +50,21 @@ li {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50%;
-    height: 100%;
+    position: relative;
 }
 .menu {
     position: absolute;
     top:0;
     text-align: center;
     height: 25%;
+    margin: auto;
 }
 
 .menu-list {
     display: flex;
-    justify-content: center;
 }
 
 .menu-items {
-    display: flex;
-    text-align: center;
     padding: 0 5%;
 }
 
@@ -82,9 +77,10 @@ li {
 
 
 @media screen and (max-width: 600px){
+
     .menu-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: 100%;
     }
     li.logo {
@@ -94,12 +90,8 @@ li {
     .menu-items {
         align-content: space-between;
         height: 25%;
-        background: rgba(0, 0, 0, 0.1);
     }
 
-    .menu-items a {
-        color: white;
-    }
 }
 
 .logo {
@@ -107,16 +99,6 @@ li {
     background-repeat: no-repeat;
     width: 94px;
     height: 85px;
-}
-
-.description {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .head-img {
@@ -130,13 +112,6 @@ li {
 
 .text {
     font-family: lato-regular;
-    font-size: 18px;
-    color: #848789;
-    text-align: center;
-}
-
-.tweet {
-    font-family: lato-italic;
     font-size: 18px;
     color: #848789;
     text-align: center;
@@ -156,6 +131,10 @@ li {
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.about {
+    margin: 40px 0;
 }
 
 .tiles1 {
@@ -239,6 +218,7 @@ li {
 .bike16 {
     background-image: url("images/bike_16.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .logo1 {
@@ -248,11 +228,6 @@ li {
 .logo2 {
     background-image: url("images/logo_2.png");
 }
-
-.logo3 {
-    background-image: url("images/logo_3.png");
-}
-
 
 .tile1-horizontal {
     position: relative;
@@ -452,7 +427,7 @@ li {
     flex-direction: row;
     flex-grow: 1.5;
     justify-content: center;
-    margin-top: 15px;
+    margin: 15px 10px;
 }
 
 .subscription-email .email {
