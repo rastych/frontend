@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Helvetica, Arial;
+}
+
+.header_red {
+    background: red;
+}
+
+.content {
+    background: green;
+    width: 100%;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        height: 100px;
+        background: yellow;
+    }
+    .xs-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (orientation: landscape) and (max-width: 768px) {
+    .header {
+        height: 200px;
+        background: blue;
+    }
+    .sm-hidden {
+        display: none;
+    }
+}

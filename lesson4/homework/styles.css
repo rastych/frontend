@@ -40,7 +40,6 @@ ul {
 }
 
 #top {
-    margin: 0 auto;
     background-image: url("images/bike_1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -79,7 +78,6 @@ ul {
 
 .about {
     height: 280px;
-    box-sizing: border-box;
 }
 .description {
     width: 90%;
@@ -263,7 +261,6 @@ ul {
 .tile2-vertical {
     width: 160px;
     height: 320px;
-    background: grey;
 }
 
 .box > span img:hover {
