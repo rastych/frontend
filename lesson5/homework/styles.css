@@ -483,11 +483,15 @@ li {
 }
 
 .footer {
-    height: 75px;
+    height: 125px;;
     background: #f7f7f7;
     font-size: 14px;
     text-align: center;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-address {
