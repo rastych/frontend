@@ -11,7 +11,7 @@ header {
     line-height: 40px;
     float: left;
     color: white;
-    text-align: center;
+    padding-left: 15px;
 }
 
 .logo_img {
@@ -20,6 +20,7 @@ header {
 
 .logo_title {
     display: inline-block;
+    padding-left: 10px;
 }
 
 .controls {
@@ -78,7 +79,7 @@ header {
     visibility: visible;
     min-height: 260px;
     min-width: 200px;
-    left: -50px;
+    left: -159px;
     right: 20px;
     opacity: 1;
     z-index: 20;
@@ -90,16 +91,19 @@ header {
     }
 
     .logo {
+        width: 40px;
+    }
+
+    .logo_title {
+        display: none;
+    }
+
+    .btn_header {
         display: none;
     }
 
     .controls {
-        float: left;
-    }
-
-    .dropdown-menu__toggle:hover .dropdown-menu__menu {
-        left: 40px;
-        top: 0;
+        float: right;
     }
 }
 
