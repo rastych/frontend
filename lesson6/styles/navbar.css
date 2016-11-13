@@ -1,0 +1,135 @@
+.navbar {
+    float: left;
+    height: calc(100% - 40px);
+    width: 40px;
+    box-sizing: border-box;
+    background: #fbfbfb;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
+
+.navbar__menu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar__menu > * {
+    line-height: 40px;
+}
+
+.navbar__items {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+    height: 40px;
+    max-height: 60px;
+    position: relative;
+}
+
+.navbar__items:last-child {
+    bottom: 10%;
+    position: absolute;
+}
+
+.navbar__items__icon {
+    text-align: center;
+    height: 100%;
+    transition: background 0.5s, color 0.5s;
+}
+
+.navbar__items__title {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    height: 100%;
+    text-align: center;
+    width: 0;
+    opacity: 0;
+    z-index: 0;
+    color: #fff;
+    transition: width 0.5s, opacity 0.2s, background 0.5s;
+}
+
+.navbar__items:hover > .navbar__items__icon {
+    background: #5692b1;
+    color: #fff;
+}
+
+.navbar__items:nth-child(2):hover > .navbar__items__icon {
+    background: #00b11e;
+    color: #fff;
+}
+
+.navbar__items:nth-child(3):hover > .navbar__items__icon {
+    background: #b10006;
+    color: #fff;
+}
+
+.navbar__items:nth-child(4):hover > .navbar__items__icon {
+    background: #ff7800;
+    color: #fff;
+}
+
+.navbar__items:nth-child(5):hover > .navbar__items__icon {
+    background: #0013b1;
+    color: #fff;
+}
+
+.navbar__items:nth-child(6):hover > .navbar__items__icon {
+    background: #29333f;
+    color: #fff;
+}
+
+.navbar__items:hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #5692b1;
+}
+
+.navbar__items:nth-child(2):hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #00b11e;
+}
+
+.navbar__items:nth-child(3):hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #b10006;
+}
+
+.navbar__items:nth-child(4):hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #ff7800;
+}
+
+.navbar__items:nth-child(5):hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #0013b1;
+}
+
+.navbar__items:nth-child(6):hover > .navbar__items__title {
+    opacity: 1;
+    z-index: 10;
+    width: 80px;
+    background: #29333f;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 100%;
+        position: fixed;
+        top: 40px;
+    }
+    .navbar__menu {
+        height: 100%;
+    }
+}

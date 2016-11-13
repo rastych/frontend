@@ -80,7 +80,6 @@ li {
     .menu-list {
         display: flex;
         flex-direction: row;
-        height: 100%;
     }
     li.logo {
         display: none;
@@ -129,7 +128,7 @@ li {
 }
 
 .minimizer-img {
-    width: 20px;
+    width: 7%;
     margin: 0 auto;
 }
 

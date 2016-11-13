@@ -1,0 +1,54 @@
+.page-content {
+    height: calc(100% - 40px);
+}
+
+.page-content__content {
+    float: right;
+    height: 100%;
+    width: calc(100% - 40px) !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .page-content__content {
+        height: 100%;
+        margin-top: 40px;
+    }
+    .page-content__column:last-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page-content__content {
+        height: 100%;
+    }
+}
+
+.page-content__container__1, .page-content__container__2 {
+    box-sizing: border-box;
+}
+
+.page-content__container__1 {
+    height: 60%;
+    background: url("http://lorempixel.com/800/400/");
+    background-size: cover;
+}
+
+.page-content__container__2 {
+    height: 40%;
+    background: url("http://lorempixel.com/400/400/");
+    background-size: cover;
+}
+
+.page-content__column {
+    height: 100%;
+    padding: 0 !important;
+}
+
+.page-content__container__1 > img .page-content__container__2 >img {
+    max-width: 100%;
+    max-height: 100%;
+}
