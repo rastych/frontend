@@ -24,8 +24,7 @@
 
 html {
     font-family: lato-regular, Helvetica;
-
-    max-width: 1400px;
+    /*max-width: 1300px;*/
     margin: 0 auto;
 }
 
@@ -76,7 +75,7 @@ li {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
 
     .menu-list {
         display: flex;
@@ -90,6 +89,13 @@ li {
     .menu-items {
         align-content: space-between;
         height: 25%;
+    }
+
+    .menu-items a {
+        font-family: lato-bold;
+        text-transform: uppercase;
+        color: #4d4959;
+        font-size: 10px;
     }
 
 }
@@ -283,7 +289,7 @@ li {
     height: 152px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 760px) {
     .tiles1 {
         display: flex;
         flex-direction: column;
