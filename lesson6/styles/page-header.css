@@ -114,6 +114,10 @@ header {
         position: fixed;
     }
 
+    .logo_title {
+        display: none;
+    }
+
     .dropdown-menu__toggle:hover .dropdown-menu__menu {
         top: 40px;
     }
