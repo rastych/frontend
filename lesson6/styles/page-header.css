@@ -88,6 +88,7 @@ header {
 @media screen and (max-width: 480px) {
     header {
         position: fixed;
+        z-index: 1000;
     }
 
     .logo {
@@ -112,6 +113,7 @@ header {
 @media screen and (min-width: 480px) and (max-width: 768px) {
     header {
         position: fixed;
+        z-index: 1000;
     }
 
     .logo_title {
