@@ -163,16 +163,18 @@ header {
 @media screen and (max-width: 768px) {
     header {
         position: fixed;
-<<<<<<< HEAD
         height: 40px;
-=======
         z-index: 1000;
->>>>>>> origin/master
     }
 
     .logo {
         width: 40px;
         line-height: 40px;
+    }
+
+    .dropdown-menu__toggle:hover .dropdown-menu__menu {
+        left: -2px;
+        right: 20px;
     }
 
     .logo_img {
@@ -194,26 +196,8 @@ header {
         line-height: 36px;
 
     }
-<<<<<<< HEAD
-=======
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    header {
-        position: fixed;
-        z-index: 1000;
-    }
-
-    .logo_title {
-        display: none;
-    }
->>>>>>> origin/master
-
-    .dropdown-menu__toggle:hover .dropdown-menu__menu {
-        left: -2px;
-        right: 20px;
-    }
-}
 
 /*@media screen and (min-width: 480px) and (max-width: 768px) {*/
     /*header {*/

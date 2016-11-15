@@ -1,13 +1,8 @@
 .navbar {
     float: left;
-<<<<<<< HEAD
     height: calc(100% - 68px);
     width: 68px;
-=======
     /*height: calc(100% - 40px);*/
-    height: 100%;
-    width: 40px;
->>>>>>> origin/master
     box-sizing: border-box;
     background: #fbfbfb;
     border-left: 1px solid #e7e7e7;

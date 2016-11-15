@@ -1,19 +1,11 @@
 .page-content {
-<<<<<<< HEAD
     height: calc(100% - 68px);
-=======
-    height: calc(100% - 40px);
-    /*height: 100px;*/
->>>>>>> origin/master
 }
 
 .page-content__content {
     float: right;
     height: 100%;
-<<<<<<< HEAD
     width: calc(100% - 68px) !important;
-=======
-    width: calc(100% - 40px) !important;
 }
 
 .page-content__column {
@@ -29,33 +21,11 @@
     background: #f7f7f7;
     font-family: "Open Sans";
     font-size: 14px;
->>>>>>> origin/master
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-    .page-content__content {
-        height: 100%;
-        margin-top: 40px;
-    }
-
-    .page-content__content {
-        width: calc(100% - 40px) !important;
-    }
-    .page-content__column:last-child {
-        display: none;
-    }
-}
-
-/*@media screen and (min-width: 768px) {*/
-    /*.page-content__content {*/
-        /*height: 100%;*/
-    /*}*/
-/*}*/
-=======
 .page-content_container__image {
     flex-basis: 40%;
     min-height: 200px;
@@ -75,14 +45,12 @@
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
 }
->>>>>>> origin/master
 
 .page-content_container__postinfo {
     flex-basis: 10%;
     line-height: 40px;
 }
 
-<<<<<<< HEAD
 .page-content__container__1 {
     width: 100%;
     height: 60%;
@@ -100,11 +68,11 @@
 .page-content__column {
     height: 100%;
     padding: 0 !important;
-=======
+}
+
 .page-content_container__post {
     padding: 0 5px;
     flex-basis: 50%;
-
 }
 
 .page-content-container__username {
@@ -126,25 +94,14 @@
     max-height: 100%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .page-content {
-        height: calc(100% - 40px);
+        height: 100%
     }
 
     .page-content__content {
-        height: 100%;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .page-content {
+        width: calc(100% - 40px) !important;
         height: calc(100% - 40px);
-    }
-
-    .page-content__content {
-        height: 100%;
         padding-top: 40px;
     }
->>>>>>> origin/master
 }
