@@ -4,9 +4,7 @@
     <list default="true" id="43ac2228-a62a-4d7c-bd04-9caae626807d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/navbar.css" afterPath="$PROJECT_DIR$/styles/navbar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/page-content.css" afterPath="$PROJECT_DIR$/styles/page-content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/page-header.css" afterPath="$PROJECT_DIR$/styles/page-header.css" />
     </list>
     <ignored path="lesson6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +34,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.68164796">
-                  <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+                <state vertical-scroll-proportion="0.49438202">
+                  <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
@@ -57,20 +55,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page-content.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="page-content.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/styles/page-content.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8395722">
-                  <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+                <state vertical-scroll-proportion="-10.909091">
+                  <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="navbar.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="navbar.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/navbar.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.875">
+                <state vertical-scroll-proportion="0.056179777">
                   <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
                   <folding />
                 </state>
@@ -141,10 +139,10 @@
         <option value="$PROJECT_DIR$/styles/header.css" />
         <option value="$PROJECT_DIR$/styles/base.css" />
         <option value="$PROJECT_DIR$/styles/page-header.css" />
-        <option value="$PROJECT_DIR$/styles/navbar.css" />
         <option value="$PROJECT_DIR$/styles/grids.css" />
-        <option value="$PROJECT_DIR$/styles/page-content.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles/page-content.css" />
+        <option value="$PROJECT_DIR$/styles/navbar.css" />
       </list>
     </option>
   </component>
@@ -448,14 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/grids.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
@@ -464,18 +454,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/page-content.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8395722">
-          <caret line="83" column="5" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.49438202">
+          <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/styles/page-content.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68164796">
-          <caret line="123" column="14" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+        <state vertical-scroll-proportion="-10.909091">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056179777">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
