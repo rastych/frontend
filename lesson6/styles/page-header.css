@@ -1,14 +1,14 @@
 header {
     width: 100%;
-    height: 40px;
-    background: #29333f;
+    height: 68px;
+    background: #222222;
 }
 
 .logo {
     display: inline-block;
     width: 30%;
     height: 40px;
-    line-height: 40px;
+    line-height: 68px;
     float: left;
     color: white;
     padding-left: 15px;
@@ -16,44 +16,69 @@ header {
 
 .logo_img {
     display: inline-block;
+    width: 18px;
 }
 
 .logo_title {
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 5px;
+    text-transform: uppercase;
+    font-size: 1.4em;
 }
 
 .controls {
+    display: table;
+    border-collapse: collapse;
     float: right;
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
     color: white;
-    padding-right: 5px;
+    height: 68px;
+    line-height: 65px;
 }
+
+/*.btn {*/
+    /*display: inline-block;*/
+    /*padding: 0 10px;*/
+    /*font-size: 24px;*/
+    /*cursor: pointer;*/
+    /*color: #525252;*/
+    /*margin: 0 15px;*/
+    /*border-right: solid 1px #525252;*/
+
+/*}*/
+
+/*.btn:hover {*/
+    /*background: #fff;*/
+    /*color: #29333f;*/
+/*}*/
 
 .btn {
-    display: inline-block;
-    padding: 0 10px;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: #fff;
-    transform: translateY(1px);
-    color: #29333f;
+    font-size: 1.3em !important;
 }
 
 .dropdown-menu__toggle {
+    display: table-cell;
     position: relative;
-    display: inline-block;
+    color: #525252;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family: "Montserrat Regular";
+    border-left: 1px solid #525252;
+    border-right: solid 1px #525252;
+}
+
+.dropdown-menu__toggle:hover {
+    background-color: #181818;
+    color: #fff;
+    border-left: 2px solid #191919;
+    border-right: 1px solid #191919;
 }
 
 .dropdown-menu__menu {
     visibility: hidden;
     opacity: 0;
-    z-index: -1;
     height: 0;
     min-width: 100px;
     position: absolute;
@@ -69,7 +94,7 @@ header {
     display: block;
 }
 
-.dropdown-menu__menu a:hover {
+.dropdown-menu__items a:hover {
     background-color: #f1f1f1;
 }
 
@@ -77,21 +102,77 @@ header {
     position: absolute;
     display: block;
     visibility: visible;
-    min-height: 260px;
+    min-height: 148px;
     min-width: 200px;
-    left: -159px;
+    left: -120px;
     right: 20px;
     opacity: 1;
     z-index: 20;
+    border: 1px solid #191919;
 }
 
-@media screen and (max-width: 480px) {
+.dropdown-menu__items {
+    text-align: end;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown-menu__items:last-child {
+    text-align: end;
+    border-bottom: 1px solid transparent;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.fb {
+    background: #3360b2;
+}
+
+.tw {
+    background: #08b0e0;
+}
+
+.gplus {
+    background: #ef5c5c;
+}
+
+.pt {
+    background: #ae0a0a;
+}
+
+.social_txt {
+    width: 70%;
+    color: black;
+    line-height: 1em;
+    border-left: 1px solid #e7e7e7;
+}
+
+@media screen and (max-width: 768px) {
     header {
         position: fixed;
+        height: 40px;
     }
 
     .logo {
         width: 40px;
+        line-height: 40px;
+    }
+
+    .logo_img {
+        padding-top: 3px;
     }
 
     .logo_title {
@@ -105,16 +186,23 @@ header {
     .controls {
         float: right;
         padding-right: 5px;
+        height: 40px;
+        line-height: 36px;
 
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    header {
-        position: fixed;
     }
 
     .dropdown-menu__toggle:hover .dropdown-menu__menu {
-        top: 40px;
+        left: -2px;
+        right: 20px;
     }
 }
+
+/*@media screen and (min-width: 480px) and (max-width: 768px) {*/
+    /*header {*/
+        /*position: fixed;*/
+    /*}*/
+
+    /*.dropdown-menu__toggle:hover .dropdown-menu__menu {*/
+        /*top: 68px;*/
+    /*}*/
+/*}*/
