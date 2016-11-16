@@ -1,17 +1,20 @@
 header {
+    position: fixed;
     width: 100%;
-    height: 68px;
+    min-width: 300px;
+    height: 50px;
     background: #222222;
+    z-index: 1000;
 }
 
 .logo {
     display: inline-block;
     width: 30%;
     height: 40px;
-    line-height: 68px;
+    line-height: 50px;
     float: left;
     color: white;
-    padding-left: 15px;
+    padding-left: 18px;
 }
 
 .logo_img {
@@ -31,28 +34,12 @@ header {
     border-collapse: collapse;
     float: right;
     color: white;
-    height: 68px;
-    line-height: 65px;
+    height: 50px;
+    line-height: 46px;
 }
 
-/*.btn {*/
-    /*display: inline-block;*/
-    /*padding: 0 10px;*/
-    /*font-size: 24px;*/
-    /*cursor: pointer;*/
-    /*color: #525252;*/
-    /*margin: 0 15px;*/
-    /*border-right: solid 1px #525252;*/
-
-/*}*/
-
-/*.btn:hover {*/
-    /*background: #fff;*/
-    /*color: #29333f;*/
-/*}*/
-
 .btn {
-    font-size: 1.3em !important;
+    font-size: 1.1em !important;
 }
 
 .dropdown-menu__toggle {
@@ -60,9 +47,9 @@ header {
     position: relative;
     color: #525252;
     cursor: pointer;
-    width: 80px;
+    width: 60px;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-transform: uppercase;
     font-family: "Montserrat Regular";
     border-left: 1px solid #525252;
@@ -83,7 +70,7 @@ header {
     min-width: 100px;
     position: absolute;
     background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: height 0.5s, opacity 0.2s, background 0.5s;
 }
 
@@ -102,10 +89,10 @@ header {
     position: absolute;
     display: block;
     visibility: visible;
-    min-height: 148px;
+    min-height: 144px;
     min-width: 200px;
-    left: -120px;
-    right: 20px;
+    left: -141px;
+    top: 50px;
     opacity: 1;
     z-index: 20;
     border: 1px solid #191919;
@@ -158,44 +145,6 @@ header {
     color: black;
     line-height: 1em;
     border-left: 1px solid #e7e7e7;
-}
-
-@media screen and (max-width: 768px) {
-    header {
-        position: fixed;
-        height: 40px;
-        z-index: 1000;
-    }
-
-    .logo {
-        width: 40px;
-        line-height: 40px;
-    }
-
-    .dropdown-menu__toggle:hover .dropdown-menu__menu {
-        left: -2px;
-        right: 20px;
-    }
-
-    .logo_img {
-        padding-top: 3px;
-    }
-
-    .logo_title {
-        display: none;
-    }
-
-    .btn_header {
-        display: none;
-    }
-
-    .controls {
-        float: right;
-        padding-right: 5px;
-        height: 40px;
-        line-height: 36px;
-
-    }
 }
 
 
