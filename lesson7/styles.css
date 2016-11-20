@@ -1,0 +1,7 @@
+body {
+  background: #f00;
+  font-size: 1.2em;
+}
+body .child {
+  background: #00f;
+}
