@@ -4,45 +4,47 @@
 'use strict';
 (function () {
     var lighter = document.querySelector('.lighter'),
-        input = lighter.querySelector('input'),
+        topDisplay = lighter.querySelector('.top'),
+        bottomDisplay = lighter.querySelector('.bottom'),
         btns = lighter.querySelectorAll('.btn'),
         operator,
-        a = 0,
+        a,
         i;
 
     for(i = 0; i < btns.length; i++) {
         btns[i].addEventListener('click', function () {
-            input.value += this.innerHTML;
-            if(this.innerHTML === "+" || this.innerHTML === "-" || this.innerHTML === "*" || this.innerHTML === "/" || this.innerHTML === "%") { //отрубаю ввод операнда
-                operator = input.value.slice(-1); //знак операции сохраняю
-                a = parseFloat(input.value.slice(0, -1)); //кладу операнд в "карман"
-                input.value = '';
-            }
-            else if(this.innerHTML ==="=") {
-                input.value = calc(a, parseFloat(input.value.slice(0, -1)), operator); //выполняю операцию карман и текущий инпут
-            }
-            function calc(a, input, operator) {
-                switch(operator) {
-                    case "+":
-                        return a + input;
-                        break;
-                    case "-":
-                        return a - input;
-                        break;
-                    case "*":
-                        return a * input;
-                        break;
-                    case "/":
-                        return a / input;
-                        break;
-                    case "%":
-                        return a * 0.01 * input;
-                        break;
-                    default:
-                        return input; //если нажать '=' сразу после ввода значения - вывожу его
-                        break;
+            bottomDisplay.value += this.innerHTML;
+            if(this.innerHTML === "+" || this.innerHTML === "-" || this.innerHTML === "*" || this.innerHTML === "/" || this.innerHTML === "%" || this.innerHTML ==="=") { //отрубаю ввод операнда
+                operator = bottomDisplay.value.slice(-1); //знак операции сохраняю;
+                if (topDisplay.value === '') {
+                    topDisplay.value = parseFloat(bottomDisplay.value);
+                    bottomDisplay.value = '';
+                } else {
+                    console.log(this.innerHTML)
+                    a = parseFloat(bottomDisplay.value);
+                    topDisplay.value = calc(parseFloat(topDisplay.value), a, operator);
+                    bottomDisplay.value = '';
                 }
             }
         });
+        function calc(a, input, operator) {
+            switch(operator) {
+                case "+":
+                    return a + input;
+                    break;
+                case "-":
+                    return a - input;
+                    break;
+                case "*":
+                    return a * input;
+                    break;
+                case "/":
+                    return a / input;
+                    break;
+                case "%":
+                    return a * 0.01 * input;
+                    break;
+            }
+        }
     }
 })();

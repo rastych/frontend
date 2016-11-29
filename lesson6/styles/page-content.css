@@ -4,9 +4,9 @@
 
 .page-content__content {
     float: right;
-    width: calc(100% - 50px) !important;
+    width: calc(100% - 65px) !important;
     height: 150%;
-    padding-top: 50px;
+    padding-top: 65px;
     display: flex !important;
     flex-direction: column;
     flex-wrap: wrap;
