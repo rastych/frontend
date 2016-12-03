@@ -10,20 +10,19 @@
         operator = [0],
         i;
         function calc(a, b, operator) {
-            debugger;
             a = +a;
             b = +b;
             switch(operator) {
                 case "+":
                     return a + b;
                     break;
-                case "-":
+                case "–":
                     return a - b;
                     break;
-                case "*":
+                case "×":
                     return a * b;
                     break;
-                case "/":
+                case "÷":
                     return a / b;
                     break;
                 case "%":
@@ -34,14 +33,12 @@
     for(i = 0; i < btns.length; i++) {
         btns[i].addEventListener('click', function () {
             bottomDisplay.value += this.innerHTML;
-            console.log(bottomDisplay.value);
-            if(this.innerHTML === "+" || this.innerHTML === "-" || this.innerHTML === "*" || this.innerHTML === "/" || this.innerHTML === "%") { //отрубаю ввод операнда
+            if(this.innerHTML === "+" || this.innerHTML === "–" || this.innerHTML === "×" || this.innerHTML === "÷" || this.innerHTML === "%") { //отрубаю ввод операнда
                 operator.push(this.innerHTML); //знак операции сохраняю;
                 if (topDisplay.value === '') {
                     topDisplay.value = bottomDisplay.value;
                     bottomDisplay.value = '';
                 } else {
-                    debugger;
                     operator.shift();
                     topDisplay.value = calc(parseFloat(topDisplay.value), parseFloat(bottomDisplay.value), operator[0]);
                     bottomDisplay.value = '';

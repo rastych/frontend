@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.trafficLights {
+    margin: 0 auto;
+    width: 100px;
+    height: 330px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light {
+    margin: 5px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    background: grey;
+    border-radius: 50%;
+    display: block;
+}
