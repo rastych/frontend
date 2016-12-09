@@ -8,9 +8,9 @@
 
     for(i = 0; i < light.length; i++) {
         light[i].addEventListener('click', function () {
-            red.style.background = 'grey';
-            yellow.style.background = 'grey';
-            green.style.background = 'grey';
+            red.style.background = '';
+            yellow.style.background = '';
+            green.style.background = '';
             switch(this.id) {
                 case 'red':
                     red.style.background = 'red';
