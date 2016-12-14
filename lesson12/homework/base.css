@@ -1,0 +1,62 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%;
+}
+
+body, ul, ol, h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background: lightgrey;
+}
+
+.lighter-wrapper {
+    width: 60px;
+    margin: 0 50px;
+    border:1px solid black;
+    background: #bdbdbd;
+    display: inline-block;
+}
+.red.active {
+    background: red
+}
+.green.active {
+    background: green;
+}
+.yellow.active {
+    background: yellow;
+}
+.aqua.active {
+    background: aqua;
+}
+.purple.active {
+    background: purple;
+}
+.blue.active {
+     background: blue;
+ }
+
+.switcher {
+    padding: 5px;
+    margin: 5px 2px;
+    text-align: center;
+    color: white;
+}
