@@ -47,8 +47,8 @@ class Lighter {
     }
 
     changeColor(el) {
-            this.switchOff();
-            this.switchOn(el);
+        this.switchOff();
+        this.switchOn(el);
     }
 
     handleEvents() {
